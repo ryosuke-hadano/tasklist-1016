@@ -20,6 +20,7 @@ class TasksController extends Controller
         
         return view("tasks.index", [
             "tasks" => $tasks,
+            "status" => "required|max:10",
             ]);
         //一覧表示処理
     }
@@ -71,6 +72,7 @@ class TasksController extends Controller
         $task = Task::find($id);
         
         return view("tasks.show",[
+            "status" => "required|max:10",
             "task" => $task,
             ]);
         //取得表示処理
