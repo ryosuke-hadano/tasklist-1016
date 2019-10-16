@@ -9,7 +9,7 @@
                 <tr>
                     <th>id</th>
                     <th>タイトル</th>
-                    <th>メッセージ</td>
+                    <th>タスク</td>
                 </tr>
                 
             </thead>
